@@ -10,9 +10,9 @@ Requires
 
 Example One Time Usage:
 
-wt create ethermine_update.js -s MAILGUN_API_KEY=<MAILGUN_API_KEY>
+wt create ethermine_update.js -s MAILGUN_API_KEY=<your_api_key>
 
-curl "https://<webtask.io URL>/ethermine_update?MAILGUN_DOMAIN=<MAILGUN_DOMAIN>&MINER_ADDRESS=<WALLET ADDRESS>&EMAIL_TO=<YOUR_EMAIL>"
+curl "https://<webtask.io URL>/ethermine_update?MAILGUN_DOMAIN=<your_mailgun_domain>&MINER_ADDRESS=<your_wallet_address>&EMAIL_TO=<your_email>"
 
 
 
