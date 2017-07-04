@@ -9,7 +9,9 @@ Requires
 3. Email address to send update to
 
 Example One Time Usage:
+
 wt create ethermine_update.js -s MAILGUN_API_KEY=<MAILGUN_API_KEY>
+
 curl "https://<webtask.io URL>/ethermine_update?MAILGUN_DOMAIN=<MAILGUN_DOMAIN>&MINER_ADDRESS=<WALLET ADDRESS>&EMAIL_TO=<YOUR_EMAIL>"
 
 
